@@ -51,6 +51,9 @@ width: 100px;
 }
 
 .contenedor{
+    
+width: 100%;
+height: 800px;    
 display: flex;
 }
 /*-------------------------------------estilos barra lateral--------------*/
@@ -63,8 +66,24 @@ display: flex;
 }
 .contenedor-contenido{
     padding: 10px;
-    width: 90%;
+    width: 75%;
+    border: 1px solid black;
+}
+
+.asideDerecho{
     border-top: 1px solid black;
+    width: 15%;
+    padding: 10px;
+}
+
+.contenedorParrafoz{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.articulo{
+width: 250px;
 }
 .footer{
     background-color: black;
