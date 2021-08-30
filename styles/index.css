@@ -132,4 +132,19 @@ font-weight: bold;
 
 .DescripcionCard{
     margin:5px;
+    margin-bottom: 20px;
+}
+
+.ver-mas{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: #69C70E;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.ver-mas a {
+color: white;    
+text-decoration: none;
 }
