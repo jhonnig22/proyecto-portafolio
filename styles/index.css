@@ -53,7 +53,7 @@ width: 100px;
 .contenedor{
     
 width: 100%;
-height: 800px;    
+    
 display: flex;
 }
 /*-------------------------------------estilos barra lateral--------------*/
@@ -75,18 +75,45 @@ display: flex;
     width: 15%;
     padding: 10px;
 }
+#navLateral li a {
+text-decoration: none;
+text-transform: uppercase;
+color: white;
 
+
+}
+#navLateral li{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+#navLateral li:hover{
+    background-color: rgb(95, 95, 95);
+}
+/*------------------------estilos articulos-----------*/
 .contenedorParrafoz{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 
 }
 
 .articulo{
+padding: 10px;    
+background-color:white ;    
 width: 250px;
+margin-bottom: 20px;
 }
 .footer{
     background-color: black;
     color: white;
     height: 70px;
+}
+
+.title{
+margin-bottom: 10px;
+text-transform: uppercase;
+font-weight: bold;
 }
