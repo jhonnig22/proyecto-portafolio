@@ -104,7 +104,7 @@ color: white;
 .articulo{
    
 background-color:white ;    
-width: 250px;
+width: 260px;
 margin-bottom: 20px;
 height: auto;
 
@@ -140,21 +140,20 @@ font-weight: bold;
 
 .ver-mas{
     
-    
+    color:white;
     text-align: center;
     background-color: #69C70E;
     
     padding: 10px;
 }
 
-.ver-mas a {
+.articulo a {
 display: block;
 width: 100%;    
-
-color: white;    
+color: black;
 text-decoration: none;
 font-size:large;
 }
-.ver-mas:hover{
+.articulo:hover .ver-mas{
     background-color: #6eda02;
 }
