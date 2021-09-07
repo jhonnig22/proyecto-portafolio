@@ -103,7 +103,7 @@ color: white;
 
 .articulo{
 background-color:white ;    
-width: 260px;
+width: 430px;
 margin-bottom: 20px;
 
 }
@@ -123,7 +123,7 @@ padding: 3px;
 
 }
 .imagen-card{
-    height: 160px;
+    height: 250px;
     margin-bottom:0px;
 
 }
@@ -134,7 +134,7 @@ padding: 3px;
 }
 
 .DescripcionCard{
-    height: 200px; 
+    height: 150px; 
     overflow: auto;
     margin:5px;
     margin-bottom: 20px;
