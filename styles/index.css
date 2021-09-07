@@ -98,11 +98,11 @@ color: white;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-
+    
 }
 
 .articulo{
-   
+    
 background-color:white ;    
 width: 260px;
 margin-bottom: 20px;
@@ -120,6 +120,9 @@ margin-left: 5px;
 margin-bottom: 10px;
 text-transform: uppercase;
 font-weight: bold;
+width: fit-content;
+padding: 5px;
+background-color:#F5B041;
 }
 .imagen-card{
     height: 160px;
@@ -133,10 +136,14 @@ font-weight: bold;
 }
 
 .DescripcionCard{
-    margin:5px;
     
+    height: 150px;
+    overflow: auto;
+    margin:5px;
     margin-bottom: 20px;
 }
+
+
 
 .ver-mas{
     
