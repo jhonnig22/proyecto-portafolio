@@ -1,6 +1,6 @@
 *{
- margin: 0;
- padding: 0;
+ margin: 0px;
+ padding: 0px;
 }
 body{
 background-color: cornflowerblue;    
@@ -102,11 +102,9 @@ color: white;
 }
 
 .articulo{
-    
 background-color:white ;    
 width: 260px;
 margin-bottom: 20px;
-height: auto;
 
 }
 .footer{
@@ -116,17 +114,17 @@ height: auto;
 }
 
 .title{
-margin-left: 5px;    
-margin-bottom: 10px;
-text-transform: uppercase;
+   
+font-size: x-large;
+margin-top: 0px;       
 font-weight: bold;
 width: fit-content;
-padding: 5px;
-background-color:#F5B041;
+padding: 3px;
+
 }
 .imagen-card{
     height: 160px;
-    margin-bottom: 10px;
+    margin-bottom:0px;
 
 }
 
@@ -136,14 +134,16 @@ background-color:#F5B041;
 }
 
 .DescripcionCard{
-    
-    height: 150px;
+    height: 200px; 
     overflow: auto;
     margin:5px;
     margin-bottom: 20px;
 }
-
-
+.title-descripcion{ 
+background-color: #CCD1D1 ;
+margin:5px;    
+font-weight: bolder;
+}
 
 .ver-mas{
     
