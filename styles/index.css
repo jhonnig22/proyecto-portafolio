@@ -1,20 +1,20 @@
 *{
- margin: 0px;
- padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 body{
-background-color: cornflowerblue;    
+    background-color: cornflowerblue;    
 }
 /*-----------------------------------------estilo menu navegacion--------------*/
 .header{
-padding: 20px;
-text-align: center;
+    padding: 20px;
+    text-align: center;
 
-width: 100%;
+    width: 100%;
 }
 #nav{
 
-margin: auto;
+    margin: auto;
 }
 
 #nav a{
@@ -22,15 +22,15 @@ margin: auto;
     text-decoration: none;   
 }
 #nav li{
-text-align: center;
-background-color: black;
-position: relative;
-display: inline-block;    
-color: white;
-padding: 10px;
-outline: none;    
-text-transform: uppercase;
-width: 100px;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    display: inline-block;    
+    color: white;
+    padding: 10px;
+    outline: none;    
+    text-transform: uppercase;
+    width: 100px;
 }
 
 #nav li ul{
@@ -39,7 +39,7 @@ width: 100px;
 }
 
 #nav li:hover {
-  background-color: rgb(95, 95, 95);
+    background-color: rgb(95, 95, 95);
 }
 
 #nav li:hover ul{
@@ -52,9 +52,8 @@ width: 100px;
 
 .contenedor{
     
-width: 100%;
-    
-display: flex;
+    width: 100%;
+    display: flex;
 }
 /*-------------------------------------estilos barra lateral--------------*/
 .lateralIzquierdo{
@@ -76,9 +75,9 @@ display: flex;
     padding: 10px;
 }
 #navLateral li a {
-text-decoration: none;
-text-transform: uppercase;
-color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
 
 
 }
@@ -92,6 +91,10 @@ color: white;
     background-color: rgb(95, 95, 95);
 }
 /*------------------------estilos articulos-----------*/
+.contenedor-descripcion{
+    margin-top: 10px;   
+}
+
 .contenedorParrafoz{
     display: flex;
     flex-direction: row;
@@ -102,9 +105,10 @@ color: white;
 }
 
 .articulo{
-background-color:white ;    
-width: 430px;
-margin-bottom: 20px;
+    background-color:white ;    
+    width: 350px;
+    overflow: hidden;
+    margin-bottom: 20px;
 
 }
 .footer{
@@ -115,51 +119,75 @@ margin-bottom: 20px;
 
 .title{
    
-font-size: x-large;
-margin-top: 0px;       
-font-weight: bold;
-width: fit-content;
-padding: 3px;
+    font-size: x-large;
+    margin-top: 0px;       
+    font-weight: bold;
+    width: fit-content;
+    padding: 3px;
 
 }
 .imagen-card{
-    height: 250px;
+    height: 190px;
     margin-bottom:0px;
 
 }
 
 .img-card{
+    
     height: 100%;
     width: 100%;
 }
-
+.articulo:hover .img-card{
+    
+    transition:transform 400ms;
+    transform: scale(1.03);
+}
 .DescripcionCard{
+    
+    background-color: #ececec;
     height: 150px; 
     overflow: auto;
-    margin:5px;
-    margin-bottom: 20px;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 .title-descripcion{ 
-background-color: #CCD1D1 ;
-margin:5px;    
-font-weight: bolder;
+   
+    background-color: #CCD1D1 ;
+    margin:5px;
+    margin-top: 20px;    
+    font-weight: bolder;
 }
-
+.contenedor-compartir{
+    text-align: center;
+    margin:5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #ececec;   
+}
+.img-compartir{    
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;    
+}
+.text-compartir{
+    margin: 5px;
+}
 .ver-mas{
     
     color:white;
     text-align: center;
     background-color: #69C70E;
-    
     padding: 10px;
 }
 
 .articulo a {
-display: block;
-width: 100%;    
-color: black;
-text-decoration: none;
-font-size:large;
+    display: block;
+    width: 100%;    
+    color: black;
+    text-decoration: none;
+    font-size:large;
 }
 .articulo:hover .ver-mas{
     background-color: #6eda02;
