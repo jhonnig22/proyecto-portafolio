@@ -123,7 +123,7 @@ body{
     margin-top: 0px;       
     font-weight: bold;
     width: fit-content;
-    padding: 3px;
+    margin: 8px;
 
 }
 .imagen-card{
@@ -148,20 +148,20 @@ body{
     height: 150px; 
     overflow: auto;
     padding: 5px;
-    margin: 5px;
+    margin: 8px;
     margin-bottom: 5px;
     margin-top: 10px;
 }
 .title-descripcion{ 
    
     background-color: #CCD1D1 ;
-    margin:5px;
+    margin:8px;
     margin-top: 20px;    
     font-weight: bolder;
 }
 .contenedor-compartir{
     text-align: center;
-    margin:5px;
+    margin:8px;
     padding-top: 10px;
     padding-bottom: 5px;
     background-color: #ececec;   
@@ -172,7 +172,7 @@ body{
     height: 25px;    
 }
 .text-compartir{
-    margin: 5px;
+    margin:8px;
 }
 .ver-mas{
     
